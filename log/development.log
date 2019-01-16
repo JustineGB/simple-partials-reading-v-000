@@ -863,3 +863,10 @@ Processing by PostsController#edit as HTML
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered posts/edit.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for 174.29.143.133 at 2019-01-16 17:00:49 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (0.9ms)
+  Rendered posts/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
